@@ -1,1 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #007BFF, #00c6ff);
+  margin: 0;
+}
 
+.container {
+  max-width: 420px;
+  background: white;
+  padding: 25px;
+  margin: 50px auto;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+}
+
+#msg {
+  margin-top: 15px;
+  font-weight: bold;
+}
